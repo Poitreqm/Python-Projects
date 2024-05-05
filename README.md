@@ -20,4 +20,4 @@
 <br>Program that analyzes a text file and outputs various statistics,such as the number of words, the number of sentences, the most common characters
 
 <b>Exercise 8: </b>
-Binary search is a search algorithm that finds the position of a target value within a sorted array.
+<br>Binary search is a search algorithm that finds the position of a target value within a sorted array.
