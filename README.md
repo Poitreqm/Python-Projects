@@ -24,3 +24,6 @@
 
 <b>Exercise 9: </b>
 <br>Tower of Hanoi.
+
+<b>Exercise 10: </b>
+<br>Telegram bot with pyTelegramBotAPI library.
