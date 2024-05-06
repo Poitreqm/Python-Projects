@@ -21,3 +21,6 @@
 
 <b>Exercise 8: </b>
 <br>Binary search is a search algorithm that finds the position of a target value within a sorted array.
+
+<b>Exercise 9: </b>
+<br>Tower of Hanoi.
