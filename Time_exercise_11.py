@@ -2,15 +2,14 @@
 # Программа которая показывает текущее время в режиме онлайн, дату и день недели
 #
 
-
 import tkinter as tk
 from tkinter import ttk
 from datetime import datetime
 import time
 
 root = tk.Tk()
-root.title("Time - Calc - Alarm - Calendar - Timer - Stopwatch")
-root.geometry("600x600")
+root.title("Current time")
+root.geometry("300x300")
 
 # создаем набор вкладок
 notebook = ttk.Notebook()
@@ -43,13 +42,15 @@ def update_time():
     current_day = datetime.date(datetime.now())
     current_day_of_week_now = current_day_of_week()
 
-    time_now = ttk.Label(frame_time, text=f"{current_time}")
-    data_now = ttk.Label(frame_time, text=f"{current_day}")
-    current_day_of_week_now = ttk.Label(frame_time, text=f"{current_day_of_week_now}")
+    time_now = ttk.Label(frame_time, text=f"{current_time}", font="Courier 20")
+    data_now = ttk.Label(frame_time, text=f"{current_day}", font="Courier 20")
+    current_day_of_week_now = ttk.Label(
+        frame_time, text=f"{current_day_of_week_now}", font="Courier 20"
+    )
 
-    time_now.place(rely=0.02, relx=0.5, anchor="center")  # отображение времени
-    data_now.place(rely=0.05, relx=0.5, anchor="center")  # отображение даты
-    current_day_of_week_now.place(rely=0.08, relx=0.5, anchor="center")
+    time_now.place(rely=0.2, relx=0.5, anchor="center")  # отображение времени
+    data_now.place(rely=0.32, relx=0.5, anchor="center")  # отображение даты
+    current_day_of_week_now.place(rely=0.44, relx=0.5, anchor="center")
 
     time_now.config(text=current_time)
     root.after(
@@ -60,30 +61,10 @@ def update_time():
 # expand=True указывает, что виджет должен растягиваться по горизонтали и вертикали в соответствии с размерами своего родительского контейнера.
 # fill=BOTH указывает, что виджет должен заполнить пространство, выделенное для него, как по горизонтали, так и по вертикали.
 
-print()
-
-# создаем пару фреймвов
 frame_time = ttk.Frame(notebook)
-frame_calculator = ttk.Frame(notebook)
-frame_alarm = ttk.Frame(notebook)
-frame_calendar = ttk.Frame(notebook)
-frame_timer = ttk.Frame(notebook)
-frame_stopwatch = ttk.Frame(notebook)
-
 frame_time.pack(expand=True, fill=tk.BOTH)
-frame_calculator.pack(expand=True, fill=tk.BOTH)
 
 update_time()
-
-
-# добавляем фреймы в качестве вкладок
-notebook.add(frame_time, text="Time")
-notebook.add(frame_calculator, text="Calculator")
-notebook.add(frame_alarm, text="Alarm")
-notebook.add(frame_calendar, text="Calendar")
-notebook.add(frame_timer, text="Timer")
-notebook.add(frame_stopwatch, text="Stopwatch")
-
 current_day_of_week()
 
 root.mainloop()
