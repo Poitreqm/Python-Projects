@@ -1,3 +1,8 @@
+#
+# Программа которая показывает текущее время в режиме онлайн, дату и день недели
+#
+
+
 import tkinter as tk
 from tkinter import ttk
 from datetime import datetime
