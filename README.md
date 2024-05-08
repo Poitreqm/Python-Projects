@@ -27,3 +27,17 @@
 
 <b>Exercise 10: </b>
 <br>Telegram bot with pyTelegramBotAPI library.
+
+<b>Exercise 11: </b>
+<br>A program that shows the current time online, date and day of the week. The tkinter library is used
+
+<b>Exercise 12: </b>
+<br>QR code generator. Print the qr code in the console and save the .png file on the computer
+
+<b>Exercise 13: </b>
+<br>A program that outputs information about the system (operating system, processor architecture, ip and etc.)
+
+<b>Exercise 14: </b>
+<br>A program for storing and managing a list of contacts.
+
+
