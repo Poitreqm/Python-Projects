@@ -15,7 +15,7 @@ from telebot import types
 
 # Go in map where you have your file Telegram-Bot.by and open Power Shell console(Rigth Mouse Click -> Console) and start code in console Power Shell python Telegram-Bot.py
 
-botTimeWeb = telebot.TeleBot("7149500235:AAHgYKzgfj8RV99F603VVQbyj-wmDt7JYcA")
+botTimeWeb = telebot.TeleBot("") # key
 
 
 @botTimeWeb.message_handler(content_types=["text"])
