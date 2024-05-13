@@ -5,7 +5,7 @@
 while True:
     count = 0
     input_list = []
-    repeat = {}
+    dublicates = {}
 
     try:
         length = int(input("Write length of list: "))
@@ -16,15 +16,15 @@ while True:
             input_list.append(input("Write element: "))
             count += 1
 
-    # array = [2, 4, 6, 0, "false", "true", 2, 0, 144, "false", ".", "."]
-
     for i in input_list:
-        result = input_list.count(i)  # проверяем сколько повторений
-        if result > 1:
+        result_count = input_list.count(i)  # проверяем сколько повторений
+        if result_count > 1:
             # проверяем если в результат больше 1 так как 1 повторение есть у каждого числа
-            repeat[i] = (
-                result  # добавляем key как элемент а value как количество повторений
-            )
+            dublicates[i] = result_count
+            # добавляем key как элемент а value как количество повторений
 
-    for key, value in repeat.items():
-        print(f"Element:  {key}  have  {value} repeats")
+    if len(dublicates) == 0:
+        print("No dublicates")
+    else:
+        for key, value in dublicates.items():
+            print(f"Element:  {key}  has  {value} repetitions in the list")
