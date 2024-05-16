@@ -66,3 +66,15 @@
 
 <b>Exercise 23: </b>
 <br>A program for creating a histogram of the frequency of occurrence of characters in a given text.
+
+<b>Exercise 24: </b>
+<br>Fibonacci numbers using recursion + memoization
+
+<b>Exercise 25: </b>
+<br>Recursive function that, for a given number and degree, returns a number raised to a power.
+
+<b>Exercise 26: </b>
+<br>Recursive function that, for a given number and degree, returns a number raised to a power.
+
+<b>Exercise 27: </b>
+<br>Iteration Protocol
