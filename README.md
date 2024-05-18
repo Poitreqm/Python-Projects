@@ -74,7 +74,7 @@
 <br>Recursive function that, for a given number and degree, returns a number raised to a power.
 
 <b>Exercise 26: </b>
-<br>Iteration Protocol
+<br>Iteration Protocol.
 
 <b>Exercise 27: </b>
 <br>A small task about the gardener and his earnings
