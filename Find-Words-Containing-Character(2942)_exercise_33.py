@@ -14,4 +14,8 @@ for i in range(len(words)):
     if x in words[i]:
         arr.append(i)
 
+# for i in words:   это не работает с некоторыми вариантами
+#     if x in i:
+#         arr.append(i)
+
 print(arr)

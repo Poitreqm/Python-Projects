@@ -75,3 +75,27 @@
 
 <b>Exercise 26: </b>
 <br>Iteration Protocol
+
+<b>Exercise 27: </b>
+<br>A small task about the gardener and his earnings
+
+<b>Exercise 28: </b>
+<br>The concatenation of two arrays.
+
+<b>Exercise 29: </b>
+<br>The program creates an array after permutation
+
+<b>Exercise 30: </b>
+<br>The program, given an array of integers, returns the number of matching pairs.
+
+<b>Exercise 31: </b>
+<br>The program returns the final value of X after performing all operations from the list containing operations
+
+<b>Exercise 32: </b>
+<br>The program shuffles the array
+
+<b>Exercise 33: </b>
+<br>The program searches for letters in words
+
+<b>Exercise 34: </b>
+<br>The program adds all the numbers from one row of the matrix, thus finding out the maximum number
