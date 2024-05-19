@@ -99,3 +99,36 @@
 
 <b>Exercise 34: </b>
 <br>The program adds all the numbers from one row of the matrix, thus finding out the maximum number
+
+<b>Exercise 35: </b>
+<br>Task is to return number of employees who met the target.
+
+<b>Exercise 36: </b>
+<br>Program return a boolean array results where kids With the greatest number of candies
+
+<b>Exercise 37: </b>
+<br>Return the number of pairs (i, j) where 0 <= i < j < n and nums[i] + nums[j] < target.
+
+<b>Exercise 38: </b>
+<br>Program find how many numbers are smaller than the current number
+
+<b>Exercise 39: </b>
+<br>Program Given an array nums. We define a running sum of an array
+
+<b>Exercise 40: </b>
+<br>Program return maximum number of words found in sentences
+
+<b>Exercise 41: </b>
+<br>Program return an integer that denotes the sum of elements in nums whose corresponding indices have exactly k set bits in their binary representation.
+
+<b>Exercise 42: </b>
+<br>Decode XORed Array
+
+<b>Exercise 43: </b>
+<br>Left and Right sum differences from list of numbers.
+
+<b>Exercise 44: </b>
+<br>Two arrays of integers are given, nums and index. the task is to create a target array
+
+<b>Exercise 45: </b>
+<br>We are given a list nums of integers representing a list compressed with run-length encoding.
