@@ -13,15 +13,18 @@ result = []
 arr1 = []
 arr2 = []
 
-arr1.append(nums[0])
-arr2.append(nums[1])
 
-for i in range(2, len(nums)):
 
-    if arr1[-1] > arr2[-1]:
-        arr1.append(nums[i])
+for i in range(0, len(nums)):
+    if i == 0:
+        arr1.append(nums[0])
+    elif i == 1:
+        arr2.append(nums[1])
     else:
-        arr2.append(nums[i])
+        if arr1[-1] > arr2[-1]:
+            arr1.append(nums[i])
+        else:
+            arr2.append(nums[i])
 
 
 result = arr1 + arr2
