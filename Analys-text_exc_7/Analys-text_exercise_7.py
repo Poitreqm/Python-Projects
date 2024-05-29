@@ -1,7 +1,7 @@
 #
-# Анализ текста:
-# Напишите программу, которая анализирует текстовый файл и выводит различные статистики,
-# такие как количество слов, количество предложений, наиболее часто встречающиеся символы и т. д.
+# Text analysis:
+# Write a program that analyzes a text file and outputs various statistics,
+# such as the number of words, the number of sentences, the most common characters, etc.
 #
 
 from collections import Counter

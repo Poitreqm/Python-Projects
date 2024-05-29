@@ -1,12 +1,11 @@
-#
-# Виселица – продвинутый вариант «угадай число». Игрок должен угадывать буквы в
-# загаданном слове. Для упрощенной версии используйте только текст, без графики.
-# Потребуется опыт работы со списками, генератор случайных чисел, работа со строками,
-# обработка ввода, вывод, цикл while, операторы if/else. Для списка слов
-# Для списка слов воспользуйтесь словарем https://github.com/Xethron/Hangman/blob/master/words.txt
+# Gallows is an advanced version of "guess the number". The player must guess the letters in
+# the hidden word. For the simplified version, use only text, without graphics.
+# You will need experience working with lists, a random number generator, working with strings,
+# # input processing, output, while loop, if/else statements. For a list of words
+# For a list of words, use the dictionary https://github.com/Xethron/Hangman/blob/master/words.txt
 #
 
-# файл можно найти в той же папке где и сам скрипт
+# the file can be found in the same folder as the script itself
 
 import random
 import string
