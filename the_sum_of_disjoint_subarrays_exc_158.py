@@ -17,9 +17,6 @@ if M == 1:
 
 
 for i in range(len(A)):
-    
-
-for i in range(len(A)):
     tmp = A[i]
     if not len(arr_l) == L and tmp not in arr_l and tmp not in arr_m:
         arr_l.append(tmp)
